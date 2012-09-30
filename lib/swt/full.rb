@@ -28,6 +28,7 @@ module Swt
     import org.eclipse.swt.widgets.ToolTip
     import org.eclipse.swt.widgets.Table
     import org.eclipse.swt.widgets.TableItem
+    import org.eclipse.swt.widgets.TrayItem
   end
 
   module Custom
