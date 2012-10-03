@@ -1,4 +1,4 @@
-require 'swt/swt_bot_extensions'
+require_relative 'swt_bot_extensions'
 
 module Swt
   import org.eclipse.swt.SWT
@@ -125,4 +125,4 @@ module JFace
   end
 end
 
-require 'swt/grid_data'
+require_relative 'grid_data'

@@ -1,7 +1,7 @@
 
-require 'swt/jar_loader'
-require 'swt/event_loop'
-require 'swt/cucumber_runner'
+require_relative 'jar_loader'
+require_relative 'event_loop'
+require_relative 'cucumber_runner'
 
 module Swt
   VERSION = "0.13" # also change in swt.gemspec
